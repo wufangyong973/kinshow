@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "bot/refresh-contributors",
+    "feat/gfi-card-about",
+    "fix/issue-68",
+    "fix/issue-69",
+    "fix/issue-70",
+    "fix/issue-71",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "bot/refresh-contributors": "main",
+    "feat/gfi-card-about": "main",
+    "fix/issue-68": "main",
+    "fix/issue-69": "main",
+    "fix/issue-70": "main",
+    "fix/issue-71": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "bot/refresh-contributors",
+    "feat/gfi-card-about",
+    "fix/issue-68",
+    "fix/issue-69",
+    "fix/issue-70",
+    "fix/issue-71",
+    "origin"
+  ]
+}

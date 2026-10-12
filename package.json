@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "node api.js && vite",
     "prebuild": "node scripts/fetch-contributors.mjs",
-    "build": "vite build && node prerender.mjs",
+    "build": "node api.js && vite build && node prerender.mjs",
     "contributors": "node scripts/fetch-contributors.mjs",
     "preview": "vite preview"
   },
